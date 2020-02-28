@@ -8,8 +8,7 @@ import * as Permissions from 'expo-permissions'; // demande de permission
 import { connect } from 'react-redux';
 import socketIOClient from 'socket.io-client'; // Import du module client socket.io
 
-// var socket = socketIOClient('http://172.16.9.200:3000'); // Init websocket
-var socket = socketIOClient('http://192.168.0.100:3000'); // Init websocket
+var socket = socketIOClient('http://YOURIPADRESS:3000'); // Init websocket
 
 function MapScreen(props) {
 	// ETATS
